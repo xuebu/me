@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+body,html{
+	background: #F1F4F8;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.fl{
+	float: left
+}
+.fr{
+	float: right;
+}
+
+.container {
+  width: 100%;
+}
+.eva-wrap{
+	padding:0 0.4rem
+}
+.wrap-tit{
+	font-size: 0.453333rem;
+	margin: 1.013333rem 0;
+}
+.eva-tit{
+	font-size: 0.4rem;
+	margin-bottom: 0.533333rem
+}
+.evafield li{
+	margin-bottom: 0.666667rem;
+}
+.evafield li:last-child{
+	margin-bottom: 0
+}
+
+
+/*[data-dpr="1"] .wrap-tit{
+	font-size: 100px;
+}*/
+
+
+
